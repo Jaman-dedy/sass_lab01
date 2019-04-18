@@ -1,0 +1,14 @@
+{
+  "name": "ux",
+  "version": "1.0.0",
+  "description": "Learning sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w views/scss/ -o views/css --recursive"
+  },
+  "author": "Amani Mpangirwa",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
